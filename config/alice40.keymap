@@ -19,10 +19,10 @@
 
         Number_layer {
             bindings = <
-&kp N1    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0   &kp DELETE
-&kp TAB   &trans        &trans        &kp K_VOL_UP2  &kp K_PP      &trans        &kp MINUS      &kp EQUAL         &kp LEFT_BRACKET  &kp RBKT      &kp BACKSLASH  &trans
-&kp CAPS  &trans        &trans        &kp K_VOL_DN2  &trans        &trans        &kp SEMICOLON  &kp SINGLE_QUOTE  &kp COMMA         &kp PERIOD    &kp SLASH      &trans
-&trans    &trans                      &trans                       &trans        &trans         &trans            &trans            &trans        &trans         &trans
+&kp N1    &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5  &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0   &kp DELETE
+&kp TAB   &tog 0        &kp C_BRI_UP       &kp C_VOLUME_UP    &kp C_PLAY_PAUSE  &trans        &kp MINUS      &kp EQUAL         &kp LEFT_BRACKET  &kp RBKT      &kp BACKSLASH  &trans
+&kp CAPS  &trans        &kp LS(C_BRI_DEC)  &kp C_VOLUME_DOWN  &trans            &tog 2        &kp SEMICOLON  &kp SINGLE_QUOTE  &kp COMMA         &kp PERIOD    &kp SLASH      &trans
+&trans    &trans                           &trans                               &trans        &trans         &trans            &trans            &trans        &trans         &trans
             >;
 
             label = "NUMBER";
@@ -31,7 +31,7 @@
         F_layer {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &tog 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans          &trans          &trans  &trans  &trans  &trans  &trans   &trans   &trans
             >;
@@ -42,7 +42,7 @@
         Function_layer {
             bindings = <
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                            &trans           &trans           &trans           &trans           &trans
-&trans  &trans        &trans        &trans        &trans        &trans        &trans                            &trans           &trans           &trans           &trans           &rgb_ug RGB_TOG
+&trans  &tog 0        &trans        &trans        &trans        &trans        &trans                            &trans           &trans           &trans           &trans           &rgb_ug RGB_TOG
 &trans  &trans        &trans        &bt BT_CLR    &trans        &trans        &rgb_ug RGB_COLOR_HSB(43,100,84)  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans
 &trans  &trans                      &trans                      &trans        &trans                            &trans           &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF
             >;
