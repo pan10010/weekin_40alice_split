@@ -19,7 +19,7 @@
 
         Number_layer {
             bindings = <
-&kp N1    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0   &kp EQUAL
+&kp N1    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0   &kp DELETE
 &kp TAB   &trans        &trans        &kp K_VOL_UP2  &kp K_PP      &trans        &kp MINUS      &kp EQUAL         &kp LEFT_BRACKET  &kp RBKT      &kp BACKSLASH  &trans
 &kp CAPS  &trans        &trans        &kp K_VOL_DN2  &trans        &trans        &kp SEMICOLON  &kp SINGLE_QUOTE  &kp COMMA         &kp PERIOD    &kp SLASH      &trans
 &trans    &trans                      &trans                       &trans        &trans         &trans            &trans            &trans        &trans         &trans
