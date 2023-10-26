@@ -12,10 +12,10 @@
         Base_layer {
             label = "BASE";
             bindings = <
-&kp ESC       &kp Q         &kp W  &kp E     &kp R  &kp T        &kp Y        &kp U  &kp I   &kp O      &kp P          &kp BACKSPACE
-&kp CAPSLOCK  &kp A         &kp S  &kp D     &kp F  &kp G        &kp H        &kp J  &kp K   &kp L      &kp SEMICOLON  &kp ENTER
-&kp LSHIFT    &kp Z         &kp X  &lt 2 C   &kp V  &kp B        &kp B        &kp N  &kp M   &kp COMMA  &kp DOT        &kp RSHIFT
-&kp LCTRL     &kt LEFT_WIN         &kt LALT         &lt 1 SPACE  &lt 1 SPACE  &mo 3  &kp UP  &kp DOWN   &kp LEFT       &kp RIGHT
+&kp ESC       &kp Q         &kp W  &kp E     &kp R    &kp T        &kp Y        &kp U  &kp I   &kp O      &kp P          &kp BACKSPACE
+&kp CAPSLOCK  &kp A         &kp S  &kp D     &kp F    &kp G        &kp H        &kp J  &kp K   &kp L      &kp SEMICOLON  &kp ENTER
+&kp LSHIFT    &kp Z         &kp X  &kt C     &lt 2 V  &lt 3 B      &kp B        &kp N  &kp M   &kp COMMA  &kp DOT        &kp RSHIFT
+&kp LCTRL     &kt LEFT_WIN         &kt LALT           &lt 1 SPACE  &lt 1 SPACE  &mo 3  &kp UP  &kp DOWN   &kp LEFT       &kp RIGHT
             >;
         };
 
@@ -24,7 +24,7 @@
 &kp N1    &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5  &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0   &kp DELETE
 &kp TAB   &tog 0        &kp C_BRI_UP       &kp C_VOLUME_UP    &kp C_PLAY_PAUSE  &tog 1        &kp MINUS      &kp EQUAL         &kp LEFT_BRACKET  &kp RBKT      &kp BACKSLASH  &trans
 &kp CAPS  &kp C_REWIND  &kp LS(C_BRI_DEC)  &kp C_VOLUME_DOWN  &kp C_FF          &kp SPACE     &kp SEMICOLON  &kp SINGLE_QUOTE  &kp COMMA         &kp PERIOD    &kp SLASH      &trans
-&trans    &trans                           &trans                               &trans        &trans         &trans            &tog 0            &tog 2        &tog 1         &tog 0
+&trans    &trans                           &trans                               &trans        &trans         &trans            &tog 0            &tog 2        &tog 1         &tog 3
             >;
 
             label = "NUMBER";
@@ -32,10 +32,10 @@
 
         F_layer {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6     &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &tog 0  &trans  &trans  &trans  &tog 1     &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &tog 2     &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans          &trans          &kp SPACE  &trans  &trans  &tog 0  &tog 2   &tog 1   &tog 0
+&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &trans     &trans
+&kp F7  &kp F8  &kp F9  &kp F10  &kt F11  &kt F12    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &trans     &trans
+&trans  &trans  &trans  &trans   &trans   &kp SPACE  &kt ESC       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ENTER  &trans
+&trans  &trans          &trans            &kp SPACE  &kt NUMBER_0  &kp PERIOD    &tog 0        &tog 2        &tog 1     &tog 3
             >;
 
             label = "F";
