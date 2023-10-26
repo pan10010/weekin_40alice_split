@@ -43,10 +43,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kt NUMBER_3  &trans        &trans  &trans
-&trans  &tog 0  &trans  &trans  &trans  &tog 1  &kp NUMBER_4  &kp NUMBER_5  &kt NUMBER_6  &trans        &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &to 2   &trans        &kp NUMBER_7  &kp NUMBER_8  &kt NUMBER_9  &trans  &trans
-&trans  &trans          &trans          &trans  &kp NUMBER_0  &kp ENTER     &tog 0        &tog 2        &tog 1  &tog 3
+&trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kt NUMBER_3  &kp MINUS     &trans     &kp BACKSPACE
+&trans  &tog 0  &trans  &trans  &trans  &tog 1  &kp NUMBER_4  &kp NUMBER_5  &kt NUMBER_6  &kp PLUS      &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &to 2   &kp ESC       &kp NUMBER_7  &kp NUMBER_8  &kt NUMBER_9  &kp ENTER  &trans
+&trans  &trans          &trans          &trans  &kp NUMBER_0  &kp PERIOD    &tog 0        &tog 2        &tog 1     &tog 3
             >;
         };
 
