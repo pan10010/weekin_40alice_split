@@ -15,7 +15,7 @@
 &kp ESC       &kp Q         &kp W  &kp E     &kp R  &kp T        &kp Y        &kp U  &kp I   &kp O      &kp P          &kp BACKSPACE
 &kp CAPSLOCK  &kp A         &kp S  &kp D     &kp F  &kp G        &kp H        &kp J  &kp K   &kp L      &kp SEMICOLON  &kp ENTER
 &kp LSHIFT    &kp Z         &kp X  &lt 2 C   &kp V  &kp B        &kp B        &kp N  &kp M   &kp COMMA  &kp DOT        &kp RSHIFT
-&kp LCTRL     &kt LEFT_WIN         &kt LALT         &lt 1 SPACE  &lt 1 SPACE  &mo 3  &kp UP  &kp DOWN   &kp LEFT       &kp RIGHT
+&kp LCTRL     &kt LEFT_WIN         &kt LALT         &lt 1 SPACE  &lt 1 SPACE  &mo 4  &kp UP  &kp DOWN   &kp LEFT       &kp RIGHT
             >;
         };
 
@@ -39,6 +39,15 @@
             >;
 
             label = "F";
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &kt NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &kt NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans        &kt NUMBER_7  &kp NUMBER_8    &trans
+&trans  &trans          &trans          &trans  &trans  &kp NUMBER_0  &kp NUMBER_9  &kp ENTER     &kp LS(PERIOD)  &trans
+            >;
         };
 
         Function_layer {
